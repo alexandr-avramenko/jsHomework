@@ -24,7 +24,7 @@ console.log(name); //Alex
 //TASK - 4
 var customArray = [12, 25, 96];
 console.log(customArray);
-customArray[0] = 8;
+customArray = 0;
 console.log(customArray);
 
 //TASK - 5
