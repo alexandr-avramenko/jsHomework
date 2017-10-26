@@ -34,7 +34,7 @@ var r = '6' + undefined; // '6undefined'
     Поэтому возникает неточность.     
 ```javascript
 var result = 2/3 + 1 + 1/3;
-console.log(result.toFixed(20));
+console.log(result.toFixed(20)); // 1.99999999999999977796
 ```
 
 ## 3 задание

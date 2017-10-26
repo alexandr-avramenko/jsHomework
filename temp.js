@@ -1,3 +1,2 @@
-var r = -9;
-var t = -8;
-console.log(r == t);
+var result = 2/3 + 1 + 1/3;
+console.log(result.toFixed(20));
