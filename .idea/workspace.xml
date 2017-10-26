@@ -59,10 +59,10 @@
               <file leaf-file-name="task_#2.md" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/lesson2/task_#2.md">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="139">
-                      <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+                    <state relative-caret-position="326">
+                      <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
                       <folding>
-                        <marker date="1509025826089" expanded="true" signature="411:782" ph="/*...*/" />
+                        <marker date="1509025896301" expanded="true" signature="402:763" ph="/*...*/" />
                       </folding>
                     </state>
                   </provider>
@@ -233,7 +233,7 @@
       <workItem from="1509015442447" duration="709000" />
       <workItem from="1509017326281" duration="16000" />
       <workItem from="1509017355986" duration="331000" />
-      <workItem from="1509017698991" duration="6745000" />
+      <workItem from="1509017698991" duration="6815000" />
     </task>
     <task id="LOCAL-00001" summary="add new file &quot;lesson1&quot;">
       <created>1507818881554</created>
@@ -277,11 +277,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509025740117</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1509025830346</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1509025830346</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13785000" />
+    <option name="totallyTimeSpent" value="13855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -543,10 +550,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson2/task_#2.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="326">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <marker date="1509025826089" expanded="true" signature="411:782" ph="/*...*/" />
+            <marker date="1509025896301" expanded="true" signature="402:763" ph="/*...*/" />
           </folding>
         </state>
       </provider>
