@@ -1,2 +1,6 @@
-var result = 2/3 + 1 + 1/3;
-console.log(result.toFixed(20));
+var r = 2,
+    r2 = ++r,
+    t = 2,
+    t2 = t--;
+
+console.log(r2 + t2);
