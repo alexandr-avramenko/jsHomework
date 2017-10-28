@@ -1,8 +1,3 @@
-# Домашнее задание по JS.
-
-#### Links for additional info:
-* https://learn.javascript.ru/types-conversion
-
 ## 1 задание
 
 Что будет в результате следующих операций:
