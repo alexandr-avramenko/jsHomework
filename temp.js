@@ -1,6 +1,9 @@
-var r = 2,
-    r2 = ++r,
-    t = 2,
-    t2 = t--;
+var obj = {
+    n: "Alex",
+    a: "18"
+};
 
-console.log(r2 + t2);
+var m = obj;
+console.log(m);
+delete obj;
+console.log(obj);
