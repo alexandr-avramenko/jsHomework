@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dc08583a-b54c-4dce-92f8-23a3401856e3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson2/task_#3.md" afterPath="$PROJECT_DIR$/lesson2/task_#3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson2/task_#2.md" afterPath="$PROJECT_DIR$/lesson2/task_#2.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,12 +44,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="task_#2.md" pinned="false" current-in-tab="false">
+          <file leaf-file-name="task_#2.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lesson2/task_#2.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="1241">
-                    <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+                  <first_editor relative-caret-position="527">
+                    <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
                     <folding />
                   </first_editor>
                   <second_editor>
@@ -59,7 +59,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="task_#3.md" pinned="false" current-in-tab="true">
+          <file leaf-file-name="task_#3.md" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lesson2/task_#3.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                 <state split_layout="SPLIT">
@@ -121,10 +121,10 @@
         <option value="$PROJECT_DIR$/lesson1/lesson1.js" />
         <option value="$PROJECT_DIR$/lesson2/task_#1.md" />
         <option value="$PROJECT_DIR$/lesson2/task_#2" />
-        <option value="$PROJECT_DIR$/lesson2/task_#2.md" />
         <option value="$PROJECT_DIR$/lesson1/index.html" />
         <option value="$PROJECT_DIR$/temp.js" />
         <option value="$PROJECT_DIR$/lesson2/task_#3.md" />
+        <option value="$PROJECT_DIR$/lesson2/task_#2.md" />
       </list>
     </option>
   </component>
@@ -261,7 +261,7 @@
       <workItem from="1509136460618" duration="65000" />
       <workItem from="1509136590648" duration="20000" />
       <workItem from="1509136644557" duration="573000" />
-      <workItem from="1509137239012" duration="6242000" />
+      <workItem from="1509137239012" duration="6471000" />
     </task>
     <task id="LOCAL-00001" summary="add new file &quot;lesson1&quot;">
       <created>1507818881554</created>
@@ -361,11 +361,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509219040262</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update">
+      <created>1509219295195</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1509219295195</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21002000" />
+    <option name="totallyTimeSpent" value="21231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -403,9 +410,9 @@
     <MESSAGE value="add new file &quot;lesson1&quot;" />
     <MESSAGE value="update directory" />
     <MESSAGE value="add new files" />
-    <MESSAGE value="update" />
     <MESSAGE value="add new file (task3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new file (task3)" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -704,25 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/task_#2.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1241">
-            <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -744,6 +732,25 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/task_#2.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="527">
+            <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
             <folding />
           </first_editor>
           <second_editor>
