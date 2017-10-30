@@ -1,2 +1,9 @@
-var result = 2/3 + 1 + 1/3;
-console.log(result.toFixed(20));
+var obj = {
+    n: "Alex",
+    a: "18"
+};
+
+var m = obj;
+console.log(m);
+delete obj;
+console.log(obj);
