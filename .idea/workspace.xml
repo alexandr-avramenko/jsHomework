@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc08583a-b54c-4dce-92f8-23a3401856e3" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson3/First.js" afterPath="$PROJECT_DIR$/lesson3/task_#1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson3/Fourth.js" afterPath="$PROJECT_DIR$/lesson3/task_#4.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson3/Second.js" afterPath="$PROJECT_DIR$/lesson3/task_#2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson3/Third.md" afterPath="$PROJECT_DIR$/lesson3/task_#3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson3/task_#3.js" afterPath="$PROJECT_DIR$/lesson3/task_#3.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson1/index.html" afterPath="$PROJECT_DIR$/lesson1/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -230,7 +226,7 @@
       <workItem from="1509484525320" duration="2808000" />
       <workItem from="1509519144100" duration="12455000" />
       <workItem from="1509544225830" duration="6317000" />
-      <workItem from="1509563862803" duration="8050000" />
+      <workItem from="1509563862803" duration="8096000" />
     </task>
     <task id="LOCAL-00001" summary="add new file &quot;lesson1&quot;">
       <created>1507818881554</created>
@@ -372,11 +368,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509575997996</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update dir">
+      <created>1509576073225</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1509576073225</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45678000" />
+    <option name="totallyTimeSpent" value="45724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -418,7 +421,8 @@
     <MESSAGE value="add third" />
     <MESSAGE value="update" />
     <MESSAGE value="update 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 4" />
+    <MESSAGE value="update dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="update dir" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -453,6 +457,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -463,6 +468,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -478,6 +484,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -494,6 +501,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -510,6 +518,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -526,6 +535,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -541,6 +551,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -564,6 +575,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -579,6 +591,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -594,6 +607,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -610,6 +624,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -626,6 +641,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -642,6 +658,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -657,6 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -689,6 +707,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -696,6 +715,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +735,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/task_#3.js">
+    <entry file="file://$PROJECT_DIR$/lesson3/task_#3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="170">
