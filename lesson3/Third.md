@@ -62,7 +62,7 @@ getName("Lily"); // 'Lily'
 getName(); // 'Defaul name'
 ```
 
-### TASK #4
+### EXAMPLE
 
 Example of recurtion in function, when it returns itself on some condition&
 Example how can we use isNaN function and how to write functions, that check all of the possibility of errors in it:
