@@ -49,7 +49,7 @@ console.log(nArr);
 
 //----------------------- TASK #7 -----------------------
 var date = new Date(),
-    current = date.getMonth(),
+    month = date.getMonth(),
     p,
     m = [
     "January",
@@ -65,7 +65,7 @@ var date = new Date(),
     "November"
 ];
 for (p = 0; p < m.length; p++) {
-    if (p === current) {
+    if (p === month) {
         document.write(m[p].bold());
     } else {
         document.write(m[p]);
