@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc08583a-b54c-4dce-92f8-23a3401856e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/Third.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/Third.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson1/index.html" afterPath="$PROJECT_DIR$/lesson1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson3/Third.js" afterPath="$PROJECT_DIR$/lesson3/Third.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson3/Third.md" afterPath="$PROJECT_DIR$/lesson3/Third.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,8 +57,8 @@
           <file leaf-file-name="Third.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lesson3/Third.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="281">
-                  <caret line="19" column="3" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="19" selection-end-column="3" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -69,8 +68,8 @@
             <entry file="file://$PROJECT_DIR$/lesson3/Third.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="193">
-                    <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+                  <first_editor relative-caret-position="247">
+                    <caret line="89" column="2" lean-forward="false" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
                     <folding />
                   </first_editor>
                   <second_editor>
@@ -242,7 +241,7 @@
       <workItem from="1509484525320" duration="2808000" />
       <workItem from="1509519144100" duration="12455000" />
       <workItem from="1509544225830" duration="6317000" />
-      <workItem from="1509563862803" duration="666000" />
+      <workItem from="1509563862803" duration="2939000" />
     </task>
     <task id="LOCAL-00001" summary="add new file &quot;lesson1&quot;">
       <created>1507818881554</created>
@@ -349,11 +348,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509551255876</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add third">
+      <created>1509564539176</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1509564539176</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38294000" />
+    <option name="totallyTimeSpent" value="40567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -394,7 +400,8 @@
     <MESSAGE value="add new one &quot;3&quot;" />
     <MESSAGE value="update" />
     <MESSAGE value="update 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2" />
+    <MESSAGE value="add third" />
+    <option name="LAST_COMMIT_MESSAGE" value="add third" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -709,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson3/Third.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -718,8 +725,8 @@
     <entry file="file://$PROJECT_DIR$/lesson3/Third.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="193">
-            <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <first_editor relative-caret-position="247">
+            <caret line="89" column="2" lean-forward="false" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor>

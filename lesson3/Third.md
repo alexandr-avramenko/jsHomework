@@ -45,8 +45,8 @@ function canGoToManGym(name, age, gender) {
   return normalAge && isMan;
 }
 
-canGoToManGym("Lily", 24, "woman"); // ?
-canGoToManGym("Vasya", 30, "man"); // ?
+canGoToManGym("Lily", 24, "woman"); // false
+canGoToManGym("Vasya", 30, "man"); // false
 ```
 
 ### 3
@@ -58,8 +58,8 @@ function getName( name ) {
   return name;
 }
 
-getName("Lily"); // ?
-getName(); // ?
+getName("Lily"); // 'Lily'
+getName(); // 'Defaul name'
 ```
 
 ### 4
