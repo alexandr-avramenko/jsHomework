@@ -88,15 +88,19 @@ switch (num) {
 console.log(res);
 
 //----------------------- TASK #9 -----------------------
-//variant_1
 var lang = prompt("Specify lang please"),
+    ru = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'],
+    de = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'],
+    en = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'],
     arr;
+
+//variant_1
 if (lang === "ru") {
-    arr = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
+    arr = ru;
 } else if ( lang === "de") {
-    arr = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
+    arr = de;
 } else if ( lang === "en") {
-    arr = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
+    arr = en;
 } else {
     alert("Entered language isn't supported");
 }
@@ -105,13 +109,13 @@ console.log(arr);
 //variant_2
 switch (lang) {
     case "ru":
-        arr = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
+        arr = ru;
         break;
     case "en":
-        arr = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
+        arr = en;
         break;
     case "de":
-        arr = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
+        arr = de;
         break;
     default:
         alert("Entered language isn't supported");
@@ -120,11 +124,7 @@ switch (lang) {
 }
 
 //variant_3
-var days = [
-    ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'], //0 - ru
-    ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'], //1 - en
-    ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So']  //2 - de
-];
+var days = [ru, en, de];
 if (lang === "ru") {
     arr = days[0];
 } else if ( lang === "en") {
