@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc08583a-b54c-4dce-92f8-23a3401856e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson3/Fourth.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lesson3/Third.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson3/First.js" afterPath="$PROJECT_DIR$/lesson3/task_#1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson3/Fourth.js" afterPath="$PROJECT_DIR$/lesson3/task_#4.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson3/Second.js" afterPath="$PROJECT_DIR$/lesson3/task_#2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson3/Third.md" afterPath="$PROJECT_DIR$/lesson3/task_#3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson1/index.html" afterPath="$PROJECT_DIR$/lesson1/index.html" />
     </list>
@@ -21,8 +23,8 @@
     <splitter split-orientation="horizontal" split-proportion="0.3919355">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="First.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lesson3/First.js">
+          <file leaf-file-name="task_#1.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lesson3/task_#1.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1513">
                   <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
@@ -31,8 +33,8 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Second.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lesson3/Second.js">
+          <file leaf-file-name="task_#2.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lesson3/task_#2.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="138">
                   <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="57" />
@@ -49,17 +51,17 @@
             <entry file="file://$PROJECT_DIR$/lesson1/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
-                  <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="30" />
+                  <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Fourth.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lesson3/Fourth.js">
+          <file leaf-file-name="task_#4.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lesson3/task_#4.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="485">
-                  <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+                  <caret line="88" column="31" lean-forward="false" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -189,9 +191,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.Third.js">
-    <configuration name="Second.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Second.js" working-dir="$PROJECT_DIR$/lesson3" />
+    <configuration name="Second.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/lesson3/task_#2.js" working-dir="$PROJECT_DIR$/lesson3" />
     <configuration name="Third.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Third.js" working-dir="$PROJECT_DIR$/lesson3" />
-    <configuration name="first.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/lesson3/First.js" working-dir="$PROJECT_DIR$/lesson3" />
+    <configuration name="first.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/lesson3/task_#1.js" working-dir="$PROJECT_DIR$/lesson3" />
     <configuration name="temp.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="temp.js" working-dir="$PROJECT_DIR$" />
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.temp.js" />
@@ -228,7 +230,7 @@
       <workItem from="1509484525320" duration="2808000" />
       <workItem from="1509519144100" duration="12455000" />
       <workItem from="1509544225830" duration="6317000" />
-      <workItem from="1509563862803" duration="7975000" />
+      <workItem from="1509563862803" duration="8050000" />
     </task>
     <task id="LOCAL-00001" summary="add new file &quot;lesson1&quot;">
       <created>1507818881554</created>
@@ -363,17 +365,23 @@
       <option name="project" value="LOCAL" />
       <updated>1509566944965</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update 4">
+      <created>1509575997996</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1509575997996</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45603000" />
+    <option name="totallyTimeSpent" value="45678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.077380955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -409,14 +417,15 @@
     <MESSAGE value="update 2" />
     <MESSAGE value="add third" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson3/First.js">
+    <entry file="file://$PROJECT_DIR$/lesson3/task_#1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -424,7 +433,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/First.js">
+    <entry file="file://$PROJECT_DIR$/lesson3/task_#1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
@@ -690,7 +699,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/First.js">
+    <entry file="file://$PROJECT_DIR$/lesson3/task_#1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
@@ -706,7 +715,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/Third.md">
+    <entry file="file://$PROJECT_DIR$/lesson3/task_#3.js">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="170">
@@ -722,12 +731,12 @@
     <entry file="file://$PROJECT_DIR$/lesson1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="30" />
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/Second.js">
+    <entry file="file://$PROJECT_DIR$/lesson3/task_#2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="57" />
@@ -735,10 +744,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/Fourth.js">
+    <entry file="file://$PROJECT_DIR$/lesson3/task_#4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
-          <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+          <caret line="88" column="31" lean-forward="false" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
           <folding />
         </state>
       </provider>
