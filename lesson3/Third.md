@@ -1,4 +1,4 @@
-### 1
+### TASK #1
 ```javascript
 var name = "Vasya";
 
@@ -22,7 +22,7 @@ newDataElse
  */
 ```
 
-### 2
+### TASK #2
 ```javascript
 function canGoToManGym(name, age, gender) {
   if (!name) {
@@ -49,7 +49,7 @@ canGoToManGym("Lily", 24, "woman"); // false
 canGoToManGym("Vasya", 30, "man"); // false
 ```
 
-### 3
+### TASK #3
 Use Parameter Defaults:
 ```javascript
 function getName( name ) {
@@ -62,7 +62,7 @@ getName("Lily"); // 'Lily'
 getName(); // 'Defaul name'
 ```
 
-### 4
+### TASK #4
 
 Example of recurtion in function, when it returns itself on some condition&
 Example how can we use isNaN function and how to write functions, that check all of the possibility of errors in it:
