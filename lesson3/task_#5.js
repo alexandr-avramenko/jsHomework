@@ -35,3 +35,12 @@ function GCD(first, second) {
 console.log(GCD(10, 20));
 
 //----------------------- TASK #4 -----------------------
+var sum = 0;
+for (var i = 0; i < 1000; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        sum += i;
+    }
+}
+console.log(sum);
+
+//----------------------- TASK #5 -----------------------
