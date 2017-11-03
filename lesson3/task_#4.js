@@ -78,7 +78,7 @@ function allOddNums(start, end) {
 }
 allOddNums(2, 15);
 
-////----------------------- TASK #7 -----------------------
+//----------------------- TASK #7 -----------------------
 function ask(n) {
     if (n !== 9) {
         return ask(+prompt("Try again"))
