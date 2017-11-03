@@ -44,3 +44,26 @@ for (var i = 0; i < 1000; i++) {
 console.log(sum);
 
 //----------------------- TASK #5 -----------------------
+for ( var i = 10; i <= 90; i++) {
+    if (i % 5 === 0 && i % 3 === 0) {
+        console.log(i);
+    }
+}
+
+//----------------------- TASK #6 -----------------------
+var arr = [];
+for ( var i = 11; i <= 70; i++) {
+    if (i % 2 !== 0) {
+        arr.push(i);
+    }
+}
+console.log(arr.reverse().join());
+
+//----------------------- TASK #7 -----------------------
+var evenNums = [];
+for ( var i = 13; i <= 78; i++) {
+    if (i % 2 === 0 && i % 3 === 0) {
+        evenNums.push(i);
+    }
+}
+console.log(evenNums.reverse().join());
