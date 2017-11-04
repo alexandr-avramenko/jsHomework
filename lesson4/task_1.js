@@ -1,5 +1,5 @@
 //----------------------- TASK #1 -----------------------
-function getPrimesNums(from, to) {
+function getPrimeNums(from, to) {
     var arr = [];
     for (var i = to; i >= from; i--) {
         if (primeNums(i)) {
@@ -9,7 +9,7 @@ function getPrimesNums(from, to) {
     return arr.reverse();
 }
 
-getPrimesNums(2, 10);
+getPrimeNums(2, 10);
 
 function primeNums (x) {
     if ( x !== 1 && x <= 3 ) {
