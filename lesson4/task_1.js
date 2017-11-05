@@ -25,3 +25,35 @@ function primeNums (x) {
 }
 
 //----------------------- TASK #2 -----------------------
+var obj = {
+    className: 'open menu'
+};
+
+function addClass(obj, cls) {
+    var arr = obj.className.split(' '),
+        i;
+    for (i = 0; i < arr.length; i++) {
+        if ( arr[i] === cls ) {
+            return;
+        }
+    }
+    arr.push(cls.trim());
+    obj.className = arr.join(" ");
+}
+
+//----------------------- TASK #3 -----------------------
+var obj = {
+    className: 'my menu menu'
+};
+
+function removeClass(obj, cls) {
+    var arr = obj.className.split(' '),
+        i;
+    for (i = 0; i < arr.length; i++) {
+        if ( arr[i] === cls.trim() ) {
+            arr.splice(i, 1);
+            i--;
+        }
+    }
+    obj.className = arr.join(' ');
+}
