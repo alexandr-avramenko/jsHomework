@@ -87,3 +87,11 @@ function fib(n) {
     return next;
 }
 fib(7);
+
+//----------------------- TASK #6 -----------------------
+var str = prompt("Enter something");
+if (str.length >= 20) {
+    console.log(str.slice(0, 5) + "...");
+} else {
+    console.log(str);
+}

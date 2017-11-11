@@ -42,8 +42,8 @@
           <file leaf-file-name="task_1.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lesson4/task_1.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+                <state relative-caret-position="465">
+                  <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -292,7 +292,7 @@
       <workItem from="1509544225830" duration="6317000" />
       <workItem from="1509563862803" duration="8096000" />
       <workItem from="1509716978887" duration="24000" />
-      <workItem from="1509743712214" duration="36621000" />
+      <workItem from="1509743712214" duration="37136000" />
     </task>
     <task id="LOCAL-00001" summary="add new file &quot;lesson1&quot;">
       <created>1507818881554</created>
@@ -518,11 +518,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510435951424</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="update">
+      <created>1510437055099</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1510437055099</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89348000" />
+    <option name="totallyTimeSpent" value="89863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -907,8 +914,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson4/task_1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+        <state relative-caret-position="465">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding />
         </state>
       </provider>
