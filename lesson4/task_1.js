@@ -75,4 +75,15 @@ function sumArr() {
 
 sumArr();
 
-//
+//----------------------- TASK #5 -----------------------
+function fib(n) {
+    var prev = 1;
+    var next = 1;
+    for (var  i = 3; i <= n ; i++){
+        var result = prev + next;
+        prev = next;
+        next = result;
+    }
+    return next;
+}
+fib(7);
