@@ -57,3 +57,22 @@ function removeClass(obj, cls) {
     }
     obj.className = arr.join(' ');
 }
+
+//----------------------- TASK #4 -----------------------
+function sumArr() {
+    var ask = prompt('nums?');
+    arr = [];
+
+    while (!isNaN(ask) && ask !== null && ask !== '') {
+        arr.push(+ask);
+        ask = prompt('nums?');
+    }
+    var result = arr.reduce(function(sum, current) {
+        return sum += current;
+    }, 0);
+    return result;
+}
+
+sumArr();
+
+//
