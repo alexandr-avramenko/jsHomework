@@ -63,7 +63,7 @@ function sumArr() {
     var ask = prompt('nums?');
     arr = [];
 
-    while (!isNaN(ask) && ask !== null && ask !== '') {
+    while (!isNaN(parseFloat(ask)) && isFinite(ask)) {
         arr.push(+ask);
         ask = prompt('nums?');
     }
