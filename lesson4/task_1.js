@@ -95,3 +95,20 @@ if (str.length >= 20) {
 } else {
     console.log(str);
 }
+
+//----------------------- TASK #7 -----------------------
+var taskCompleted = {
+    'Anna': 29,
+    'Serg': 35,
+    'Elena': 1,
+    'Anton': 99
+},
+    key,
+    max = 0;
+
+for (key in taskCompleted) {
+    if (max < taskCompleted[key]) {
+        max = taskCompleted[key];
+    }
+}
+console.log('Name: ' + key + '\n' + 'Completed tasks: ' + max);
