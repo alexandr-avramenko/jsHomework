@@ -19,6 +19,5 @@
 var but = document.querySelector('button'),
     text = but.innerText;
 but.addEventListener('click', function () {
-    alert(text);
-    console.log(90);
+    console.log((text));
 });
