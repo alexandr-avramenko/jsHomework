@@ -53,3 +53,15 @@ function anClean(arr) {
 }
 
 //----------------------- TASK #3 -----------------------
+
+var arr = [ 'rrrA', 'toboR', 'ekiL', 'dooG', 'esoR' ],
+    newArr = arr.map(function(item, i) {
+        return item.split('').reverse();
+    }),
+    result = [];
+
+for (var i = 0; i < newArr.length; i++) {
+    result.push(newArr[i].join(''));
+}
+
+console.log(result);
