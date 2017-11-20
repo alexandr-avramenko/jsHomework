@@ -85,6 +85,9 @@ function getIntSum(start, end) {
 }
 
 //----------------------- TASK #5 -----------------------
+callMe(1, "sdgs", 'f'); // error
+callMe(4, 10, 15); // 29
+
 function callMe(n1, n2, n3) {
     var nums = makeArray(arguments),
         i;
@@ -116,6 +119,3 @@ function makeArray(args) {
 function isNum(num) {
     return !isNaN(parseFloat(num)) && isFinite(num);
 }
-
-callMe(1, "sdgs", 'f'); // error
-callMe(4, 10, 15); // 29
