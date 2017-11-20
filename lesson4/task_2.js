@@ -104,6 +104,7 @@ function callMe(n1, n2, n3) {
     }
 }
 
+// making array from arguments
 function makeArray(args) {
     var arr = [],
         i;
@@ -115,7 +116,33 @@ function makeArray(args) {
     }
     return arr;
 }
-
+// check numbers
 function isNum(num) {
     return !isNaN(parseFloat(num)) && isFinite(num);
 }
+
+//----------------------- TASK #6 -----------------------
+var abc = ['g', 'v', 'a', 'f', 'i'];
+function callMeAgain(arr) {
+    return arr.sort().join(',').split(' ');
+}
+callMeAgain(abc); // ["a,f,g,i,v"]
+
+//----------------------- TASK #7 -----------------------
+var arr = [
+    {name: "L1", age: 45},
+    {name: "L1", age: 20},
+    {name: "L1", age: 10},
+    {name: "L1", age: 78},
+    {name: "L1", age: 41},
+    {name: "L1", age: 10}
+],
+    sorted = arr.sort(sortByAge);
+
+console.log(sorted);
+
+// sorting by age
+function sortByAge(a, b) {
+    return a.age - b.age;
+}
+//----------------------- TASK #8 -----------------------
