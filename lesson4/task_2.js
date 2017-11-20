@@ -60,8 +60,8 @@ var arr = [ 'rrrA', 'toboR', 'ekiL', 'dooG', 'esoR' ],
 console.log(result);
 
 //----------------------- TASK #4 -----------------------
-console.log('Sum for integer: ' + getIntSum(1, 100));
-console.log('Sum for integer: ' + getEvenSum(0, 100));
+console.log('Sum for integer numbers: ' + getIntSum(1, 100));
+console.log('Sum for even numbers: ' + getEvenSum(0, 100));
 
 
 function getEvenSum(start, end) {
