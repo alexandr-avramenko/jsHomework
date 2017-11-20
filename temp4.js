@@ -3,7 +3,6 @@ var ul = document.querySelector('ul'),
     but = document.querySelector("button"),
     spans = document.querySelectorAll('span');
 
-//create new <li> element with value from input
 but.addEventListener('click', function () {
     var li = document.createElement('li');
     li.innerHTML = input.value;

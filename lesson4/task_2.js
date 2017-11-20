@@ -53,15 +53,69 @@ function anClean(arr) {
 }
 
 //----------------------- TASK #3 -----------------------
-
 var arr = [ 'rrrA', 'toboR', 'ekiL', 'dooG', 'esoR' ],
-    newArr = arr.map(function(item, i) {
-        return item.split('').reverse();
-    }),
-    result = [];
+    result = arr.map(function(item) {
+        return item.split('').reverse().join('');
+    });
+console.log(result);
 
-for (var i = 0; i < newArr.length; i++) {
-    result.push(newArr[i].join(''));
+//----------------------- TASK #4 -----------------------
+console.log('Sum for integer: ' + getIntSum(1, 100));
+console.log('Sum for integer: ' + getEvenSum(0, 100));
+
+
+function getEvenSum(start, end) {
+    var sum = 0;
+
+    for (start; start <= end; start++) {
+        if ( start % 2 === 0) {
+            sum += start;
+        }
+    }
+    return sum;
 }
 
-console.log(result);
+function getIntSum(start, end) {
+    var sum = 0;
+
+    for (start; start <= end; start++) {
+        sum += start;
+    }
+    return sum;
+}
+
+//----------------------- TASK #5 -----------------------
+function callMe(n1, n2, n3) {
+    var nums = makeArray(arguments),
+        i;
+
+    if (isNum(n1) && isNum(n2) && isNum(n3)) {
+        return n1 + n2 + n3;
+    } else {
+        var message = "Wrong elements are: ";
+            for(i = 0; i < nums.length; i++){
+                message += nums[i] + " ";
+            }
+        console.error(message);
+        return null;
+    }
+}
+
+function makeArray(args) {
+    var arr = [],
+        i;
+
+    for (i = 0; i < args.length; i++) {
+        if(!isNum(args[i])){
+            arr.push(i);
+        }
+    }
+    return arr;
+}
+
+function isNum(num) {
+    return !isNaN(parseFloat(num)) && isFinite(num);
+}
+
+callMe(1, "sdgs", 'f'); // error
+callMe(4, 10, 15); // 29
