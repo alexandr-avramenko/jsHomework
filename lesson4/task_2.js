@@ -145,7 +145,7 @@ console.log(sorted);
 function sortByAge(a, b) {
     return a.age - b.age;
 }
-//----------------------- TASK #8 -----------------------
+//----------------------- TASK #8(7) -----------------------
 var name = prompt('Your name?', ''),
     age = +prompt('Your age?', '');
 
@@ -174,23 +174,49 @@ function isNameExist(arr, name) {
 //----------------------- TASK #9 -----------------------
 var numbers = [13, 35, 3, 443],
     whatNum = +prompt('What number do you want to count?', '');
-console.log(whatNum);
 
 //returns quantity of specific numbers (n) in the array (arr) are present
 function numsCounter(arr, n) {
-    var convert = arr.join('').split(''),
-        counter = 1,
-        i;
+    var convert = arr.join(',').split(''),
+        counter = 0;
 
-    console.log(convert);
-
-    for (i = 0; i < arr.length; i++) {
-        if (convert[i] === n) {
-            console.log('+');
+    convert.forEach(function (item) {
+        if (n == item) {
             counter++;
         }
-    }
+    });
+
     return counter;
 }
 
-console.log(numsCounter(numbers, whatNum));
+console.log('The array contains ' + numsCounter(numbers, whatNum) + ` digits ${whatNum}`); // 4 digits 3
+
+//----------------------- TASK #10 -----------------------
+var arr = ['1', '2', '3', '4', '5', '6'];
+
+function makeString(arr) {
+    var result = [],
+        i;
+
+    for (i = 0; i < (arr.length / 2); i++) {
+        result.push(arr[i] + arr[arr.length - i - 1]);
+    }
+
+    return result.join('-');
+}
+makeString(arr);
+
+//----------------------- TASK #11 -----------------------
+var first = [1, 2, 3],
+    second = [4, 5, 6];
+
+function sumArray(arr1, arr2) {
+    var result = []; //через push()
+    for (var i = 0; i < arr1.length; i++)
+    if (arr1[i] === undefined || arr2[i] === undefined) {
+        return result;
+    }
+         = arr1[0] + arr2[0];
+    return result;
+}
+sumArray(first, second);
