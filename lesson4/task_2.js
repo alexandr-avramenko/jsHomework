@@ -211,12 +211,15 @@ var first = [1, 2, 3],
     second = [4, 5, 6];
 
 function sumArray(arr1, arr2) {
-    var result = []; //через push()
-    for (var i = 0; i < arr1.length; i++)
-    if (arr1[i] === undefined || arr2[i] === undefined) {
-        return result;
+    var result = [];
+    console.log(arguments.length);
+    for (var i = 0; i < arr1.length; i++) {
+        if (arr1[i] === undefined || arr2[i] === undefined) {
+            return result;
+        } else {
+            result.push(arr1[i] + arr2[i]);
+        }
     }
-         = arr1[0] + arr2[0];
     return result;
 }
 sumArray(first, second);
