@@ -172,3 +172,25 @@ function isNameExist(arr, name) {
 }
 
 //----------------------- TASK #9 -----------------------
+var numbers = [13, 35, 3, 443],
+    whatNum = +prompt('What number do you want to count?', '');
+console.log(whatNum);
+
+//returns quantity of specific numbers (n) in the array (arr) are present
+function numsCounter(arr, n) {
+    var convert = arr.join('').split(''),
+        counter = 1,
+        i;
+
+    console.log(convert);
+
+    for (i = 0; i < arr.length; i++) {
+        if (convert[i] === n) {
+            console.log('+');
+            counter++;
+        }
+    }
+    return counter;
+}
+
+console.log(numsCounter(numbers, whatNum));
