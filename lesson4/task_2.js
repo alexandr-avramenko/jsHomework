@@ -129,7 +129,7 @@ function callMeAgain(arr) {
 callMeAgain(abc); // ["a,f,g,i,v"]
 
 //----------------------- TASK #7 -----------------------
-var arr = [
+var list = [
     {name: "L1", age: 45},
     {name: "L1", age: 20},
     {name: "L1", age: 10},
@@ -137,7 +137,7 @@ var arr = [
     {name: "L1", age: 41},
     {name: "L1", age: 10}
 ],
-    sorted = arr.sort(sortByAge);
+    sorted = list.sort(sortByAge);
 
 console.log(sorted);
 
@@ -146,3 +146,29 @@ function sortByAge(a, b) {
     return a.age - b.age;
 }
 //----------------------- TASK #8 -----------------------
+var name = prompt('Your name?', ''),
+    age = +prompt('Your age?', '');
+
+addToList(name, age);
+
+function addToList(name, age) {
+    var result;
+    if (isNameExist(list, name) === true) {
+        list.push({name: name, age: age});
+        list.sort(sortByAge);
+        result = list;
+    } else {
+        result = alert("Such user already exists. Please choose another name.");
+    }
+    return result;
+}
+
+function isNameExist(arr, name) {
+    for (var i = 0; i < arr.length; i++) {
+        var result;
+        arr[i].name !== name ? result = true : result = false;
+    }
+    return result;
+}
+
+//----------------------- TASK #9 -----------------------
