@@ -222,4 +222,4 @@ function sumArray(arr1, arr2) {
     }
     return result;
 }
-sumArray(first, second);
+sumArray(first, second); // [5, 7, 9]
