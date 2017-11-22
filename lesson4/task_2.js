@@ -278,6 +278,29 @@ function intersection() {
 //----------------------- TASK #14 -----------------------
 var nums = [2, 3, 1, 4];
 
-for (var i = 0; i < nums.length; i++) {
+digitsDuplication(nums); // [ 2, 2, 3, 3, 3, 1, 4, 4, 4, 4 ]
 
+function digitsDuplication(arr) {
+        var result = [];
+    for (var i = 0; i < arr.length; i++) {
+        for (var j = arr[i]; j > 0; j--) {
+            result.push(arr[i]);
+        }
+    }
+    return result;
 }
+
+//----------------------- TASK #15 -----------------------
+var arr = [1,2,3],
+    quantity = +prompt("How many '0' do you want to add?",'');
+
+addZero(arr, quantity);
+
+function addZero(arr, quantity) {
+    for (var i = 0; i < quantity; i++) {
+        arr.push(0);
+    }
+    return arr;
+}
+
+//----------------------- TASK #16 -----------------------
