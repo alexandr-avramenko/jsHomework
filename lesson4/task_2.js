@@ -276,3 +276,8 @@ function intersection() {
 }
 
 //----------------------- TASK #14 -----------------------
+var nums = [2, 3, 1, 4];
+
+for (var i = 0; i < nums.length; i++) {
+
+}
