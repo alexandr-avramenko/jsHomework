@@ -223,3 +223,54 @@ function sumArray(arr1, arr2) {
     return result;
 }
 sumArray(first, second); // [5, 7, 9]
+
+//----------------------- TASK #12 -----------------------
+var arr = [1,2,3,4,3,3],
+    ask = +prompt('Which digit do you want to delete?', "");
+
+function deleteElement(arr, val) {
+    for (var i = 0; i <= arr.length; i++) {
+        if (arr[i] === val) {
+            arr.splice(i, 1);
+            i--;
+        }
+    }
+    return arr;
+}
+
+deleteElement(arr, ask); // [1, 2, 4]
+
+//----------------------- TASK #13 -----------------------
+var arr1 = [1, 2, 3],
+    arr2 = [101, 2, 1, 10],
+    arr3 = [2, 1];
+
+intersection(arr1, arr2, arr3); // [1, 2]
+
+
+function compareArr(arr1, arr2) {
+    var result = [],
+        i,
+        j;
+    for (i = 0; i < arr1.length; i++) {
+        for (j = 0; j < arr2.length; j++) {
+            if (arr1[i] === arr2[j] && result.indexOf(arr1[i]) === -1) {
+                result.push(arr1[i]);
+            }
+        }
+    }
+    return result;
+}
+
+function intersection() {
+    var result = arguments[0];
+
+    if (arguments.length === 1 && Array.isArray(arguments[0])) {
+        return result;
+    }
+    for (var i = 1; i < arguments.length; i++) {
+        result = compareArr(result, arguments[i]);
+    }
+
+    return result;
+}
