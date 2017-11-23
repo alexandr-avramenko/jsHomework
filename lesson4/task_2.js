@@ -304,6 +304,25 @@ function addZero(arr, quantity) {
 }
 
 //----------------------- TASK #16 -----------------------
-//0 - каждый элемент как свойство объекта
-//1 - склеить в массив
-//2 - сортировать и выводить
+var arr = [1, 2, 1, 2, 2, 2, 2, 3, 4, 4];
+
+minNums(deleteDuplicates(arr.sort(compareElems)));
+
+function minNums(arr) {
+    return arr.splice(0, 3);
+}
+
+function compareElems (a, b) {
+    return a - b;
+}
+
+function deleteDuplicates(arr) {
+    result = arr.reduce(function (total, current) {
+        if (total.indexOf(current) === -1) {
+            total.push(current);
+        }
+        return total;
+    }, []);
+
+    return result;
+}
