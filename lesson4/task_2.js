@@ -306,17 +306,17 @@ function addZero(arr, quantity) {
 //----------------------- TASK #16 -----------------------
 var arr = [1, 2, 1, 2, 2, 2, 2, 3, 4, 4];
 
-minNums(deleteDuplicates(arr.sort(compareElems)));
+minNums(arr.sort(compareElems));
 
-function minNums(arr) {
-    return arr.splice(0, 3);
-}
+// function minNums(arr) {
+//     return arr.splice(0, 3);
+// }
 
 function compareElems (a, b) {
     return a - b;
 }
 
-function deleteDuplicates(arr) {
+function minNums(arr) {
     result = arr.reduce(function (total, current) {
         if (total.indexOf(current) === -1) {
             total.push(current);
@@ -324,5 +324,5 @@ function deleteDuplicates(arr) {
         return total;
     }, []);
 
-    return result;
+    return result.splice(0, 3);
 }
