@@ -304,17 +304,9 @@ function addZero(arr, quantity) {
 }
 
 //----------------------- TASK #16 -----------------------
-var arr = [1, 2, 1, 2, 2, 2, 2, 3, 4, 4];
+var arr = [8, 8, 0, 2, 2, 2, 3, 4, 4,6];
 
-minNums(arr.sort(compareElems));
-
-// function minNums(arr) {
-//     return arr.splice(0, 3);
-// }
-
-function compareElems (a, b) {
-    return a - b;
-}
+minNums(arr);
 
 function minNums(arr) {
     result = arr.reduce(function (total, current) {
@@ -323,6 +315,8 @@ function minNums(arr) {
         }
         return total;
     }, []);
-
+    result.sort(function compareElems (a, b) {
+        return a - b;
+    });
     return result.splice(0, 3);
 }
