@@ -307,13 +307,13 @@ function addZero(arr, quantity) {
 
 //--------- PART #1
 
-var arr = [8, 8, 3, 0, 2, 2, 2, 3, 4, 4,6];
+var arr = [8, 8, 3, 0, 2, -1, 2, 2, 3, 4, 4, 6, 2, 5, -1, -4, 2, 1, 25, 1, -1, -1, 0];
 
-minNums(arr);
+minNums(arr); // [-4, -1, 0]
 
 function minNums(arr) {
    var result = arr.reduce(function (total, current) {
-        if (total.indexOf(current) === -1) {
+        if ( total.indexOf(current) === -1 ) {
             total.push(current);
         }
         return total;
@@ -328,9 +328,7 @@ function minNums(arr) {
 
 //--------- PART #2
 
-var array = [2, 5, -1, -4, 2, 1, -5, -9, -1, -1, 0];
-
-negativeNums(array);
+negativeNums(arr); // [-1, -1, -4]
 
 function negativeNums(arr) {
 
