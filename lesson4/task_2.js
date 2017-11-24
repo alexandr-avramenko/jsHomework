@@ -304,19 +304,39 @@ function addZero(arr, quantity) {
 }
 
 //----------------------- TASK #16 -----------------------
-var arr = [8, 8, 0, 2, 2, 2, 3, 4, 4,6];
+
+//--------- PART #1
+
+var arr = [8, 8, 3, 0, 2, 2, 2, 3, 4, 4,6];
 
 minNums(arr);
 
 function minNums(arr) {
-    result = arr.reduce(function (total, current) {
+   var result = arr.reduce(function (total, current) {
         if (total.indexOf(current) === -1) {
             total.push(current);
         }
         return total;
     }, []);
+
     result.sort(function compareElems (a, b) {
         return a - b;
     });
+
     return result.splice(0, 3);
+}
+
+//--------- PART #2
+
+var array = [2, 5, -1, -4, 2, 1, -5, -9, -1, -1, 0];
+
+negativeNums(array);
+
+function negativeNums(arr) {
+
+    var result = arr.filter(function (num) {
+        return num < 0;
+    });
+
+    return result.slice(0, 3);
 }
