@@ -75,4 +75,67 @@ function upChar(str) {
 }
 
 //----------------------- TASK #10 -----------------------
-var str = 'я учу javascript!';
+var str = 'я учу javascript!',
+    arr = str.split(' ');
+
+upFirst(arr); //'Я Учу Javascript!'
+
+function upFirst(arr) {
+    var result = arr.map(function (item) {
+        return item[0].toUpperCase() + item.slice(1);
+    });
+
+    return result.join(' ');
+}
+
+//----------------------- TASK #11 -----------------------
+var text = 'var_test_text';
+
+camelCase(text); // varTestText
+
+function camelCase(str) {
+    var arr = text.split("_");
+
+    for (var i = 1; i < arr.length; i++) {
+        arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1);
+    }
+
+    return arr.join('');
+
+}
+
+//----------------------- TASK #12 -----------------------
+var str = 'varTestText';
+
+function separator(str) {
+    var arr = str.split('');
+
+    for (var i = 0; i < 10; i++) {
+        if (arr[i] === arr[i].toUpperCase()) {
+            arr[i] = arr[i].toLowerCase();
+            arr.splice(i, 0, '_');
+        }
+    }
+
+    return arr.join('');
+
+}
+
+separator(str);
+
+//----------------------- TASK #13 -----------------------
+var nums = '12345678';
+
+spaces(nums);
+
+function spaces(str) {
+    var arr = str.split('');
+
+    for (var i = arr.length; i > 0; i--) {
+        if (i % 3 === 0) {
+            arr.splice(i - 1, 0, " ")
+        }
+    }
+
+    return arr.join('');
+}
