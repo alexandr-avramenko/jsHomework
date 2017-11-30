@@ -124,18 +124,26 @@ function separator(str) {
 separator(str);
 
 //----------------------- TASK #13 -----------------------
-var nums = '12345678';
+var num = '12345678',
+    num2 = '12345678684165';
 
-spaces(nums);
+spaces(num); // '12 345 678'
+spaces(num2); // '12 345 678 684 165'
 
 function spaces(str) {
-    var arr = str.split('');
+    var arr = str.split('').reverse(),
+        newStr = '',
+        result;
 
-    for (var i = arr.length; i > 0; i--) {
-        if (i % 3 === 0) {
-            arr.splice(i - 1, 0, " ")
+    for (var i = 0; i < arr.length; i++) {
+        if ( (i + 1) % 3 === 0) {
+            newStr += arr[i] + " ";
+        } else {
+            newStr += arr[i];
         }
     }
 
-    return arr.join('');
+    result = newStr.split('').reverse().join('');
+
+    return result.trim();
 }
