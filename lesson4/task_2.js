@@ -57,7 +57,8 @@ var arr = [ 'rrrA', 'toboR', 'ekiL', 'dooG', 'esoR' ],
     result = arr.map(function(item) {
         return item.split('').reverse().join('');
     });
-console.log(result);
+
+console.log(result.sort());
 
 //----------------------- TASK #4 -----------------------
 console.log('Sum for integer numbers: ' + getIntSum(1, 100));

@@ -10,3 +10,76 @@ function multiplyArray(arr, num) {
 multiplyArray([1, 2, 3], 6);
 
 //----------------------- TASK #2 -----------------------
+function createPersonsGetter(strData) {
+
+    var obj = {},
+        arr = strData.split(';'),
+
+        prop = arr.map(function (item) {
+            return item.substring(0, item.indexOf(':')).trim().toLowerCase().replace(/ /g, '_');
+        }),
+
+        value = arr.map(function (item) {
+            return item.substring(item.indexOf(':') + 1).trim();
+        });
+
+    for (var i = 0; i < prop.length; i++) {
+        if (+value[i]) {
+            obj[prop[i]] = +value[i];
+        } else {
+            obj[prop[i]] = value[i];
+        }
+
+    }
+
+    return obj;
+
+}
+
+createPersonsGetter("Last Name: Karpenko; Name: Lily; Age: 24; Gender: female");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function parse(str) {
+
+    var arr = str.split(";"),
+
+        matrix = arr.map(function(item) {
+            return item.split(':');
+        });
+
+    return matrix.map(function (item) {
+        return item[0].trim().replace(/ /g, '_').toLowerCase();
+    });
+
+}
+
