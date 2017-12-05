@@ -1,0 +1,12 @@
+//----------------------- TASK #1 -----------------------
+function multiplyArray(arr, num) {
+    var mult = arr.map(function (item) {
+        return item * num;
+    });
+
+    return mult;
+}
+
+multiplyArray([1, 2, 3], 6);
+
+//----------------------- TASK #2 -----------------------
