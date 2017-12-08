@@ -38,48 +38,30 @@ function createPersonsGetter(strData) {
 
 createPersonsGetter("Last Name: Karpenko; Name: Lily; Age: 24; Gender: female");
 
+//----------------------- TASK #3 -----------------------
+var personsList = [];
 
+function createPerson(data) {
 
+    if (!personsList.length) {
+        personsList.push(data);
+    } else {
+        for (var i = 0; i < personsList.length; i++) {
+            if ( personsList[i].name !== data.name ) {
+                personsList.push(data);
+            } else if ( personsList[i].name === data.name ) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function parse(str) {
-
-    var arr = str.split(";"),
-
-        matrix = arr.map(function(item) {
-            return item.split(':');
-        });
-
-    return matrix.map(function (item) {
-        return item[0].trim().replace(/ /g, '_').toLowerCase();
-    });
-
+            }
+        }
+    }
 }
+
+createPerson({ name: "Lily", age: 24 });
+createPerson({ name: "Lily", last_name: "Karpenko" });
+createPerson({ name: "Ivan", last_name: "Skoroglyad", age: 70 });
+
+console.log(personsList);
+// [{name: "Lily", last_name: "Karpenko", age: 24}, { name: "Ivan", last_name: "Skoroglyad" }]
+
+
 
