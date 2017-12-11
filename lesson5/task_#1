@@ -41,18 +41,23 @@ createPersonsGetter("Last Name: Karpenko; Name: Lily; Age: 24; Gender: female");
 //----------------------- TASK #3 -----------------------
 var personsList = [];
 
-function createPerson(data) {
+function createPerson(personConfig){
+    var names = personsList.map(function(person){
+            return person.name;
+        }),
+        itemIndex = names.indexOf(personConfig.name),
+        isNotInList = itemIndex === -1;
 
-    if (!personsList.length) {
-        personsList.push(data);
+    if ( isNotInList ){
+        personsList.push(personConfig);
     } else {
-        for (var i = 0; i < personsList.length; i++) {
-            if ( personsList[i].name !== data.name ) {
-                personsList.push(data);
-            } else if ( personsList[i].name === data.name ) {
+        updatePerson(personsList[itemIndex], personConfig);
+    }
+}
 
-            }
-        }
+function updatePerson(receiver, giver){
+    for(var key in giver){
+        receiver[key] = giver[key];
     }
 }
 
@@ -61,7 +66,5 @@ createPerson({ name: "Lily", last_name: "Karpenko" });
 createPerson({ name: "Ivan", last_name: "Skoroglyad", age: 70 });
 
 console.log(personsList);
-// [{name: "Lily", last_name: "Karpenko", age: 24}, { name: "Ivan", last_name: "Skoroglyad" }]
-
 
 
